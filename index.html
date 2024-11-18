@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="dd.png">
+  <meta name="google-site-verification" content="gmeK5_BosCqEzcwWrEu5TCxKLEUoCKgesqF3FPSql54" />
+  <title>mualee</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --Mobile: 375px;
+      --Desktop: 1440px;
+      --Green: hsl(75, 94%, 57%);
+      --White: hsl(0, 0%, 100%);
+      --Grey: hsl(0, 0%, 20%);
+      --Dark-Grey: hsl(0, 0%, 12%);
+      --Off-Black: hsl(0, 0%, 8%);
+    }
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      background-color: var(--Off-Black);
+      justify-content: center;
+      align-items: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .box {
+      width: 400px;
+      height: 580px;
+      background-color: var(--Dark-Grey);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      margin-top: 1px;
+      background-image: url(Untitled-2.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+    }
+    .photo:hover {
+      width: 130px;
+      height: 130px;
+      background-image: url(Untitled-2.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 1%;
+    }
+    h2 {
+      color: white;
+      margin: 15px;
+      font-family: 'Arial Black', sans-serif;
+    }
+    h4 {
+      color: var(--Green);
+    }
+    p {
+      color: var(--White);
+      text-align: center;
+      margin: 10px 0;
+    }
+    .Allsocial {
+      color: var(--White);
+      width: 100%;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .social {
+      background-color: var(--Grey);
+      width: 100%;
+      height: 30px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    a {
+      color: var(--White);
+      text-decoration: none;
+      text-transform: none;
+    }
+    .social:hover {
+      width: 110%;
+      height: 40px;
+      margin: 5px 0;
+      background-color: var(--Green);
+      color: var(--Off-Black);
+      cursor: pointer;
+    }
+
+    /* Media Queries for Responsive Design */
+    @media (max-width: 600px) {
+      .box {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+      }
+      .social {
+        height: 45px;
+      }
+      .social:hover {
+        width: 100%;
+        height: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="photo"></div>
+    <h2>Mua LEE</h2>
+    <h4>Luangprabang, Laos</h4>
+    <p>Front-end developer and IT support</p>
+    <div class="Allsocial">
+      <div class="social" onClick="window.open('https://github.com/mualee', '_blank')">GitHub</div>
+<div class="social" onClick="window.open('https://gitlab.com/mualee072', '_blank')">GitLab</div>
+<div class="social" onClick="window.open('https://www.facebook.com/profile.php?id=100070960598962', '_blank')">Facebook</div>
+<div class="social" onClick="window.open('https://api.whatsapp.com/send?phone=8562055188317&text=Hi&source=&data=&app_absent=', '_blank')">WhatsApp</div>
+<div class="social" onClick="window.open('https://line.me/ti/p/ebDQAsB7IN', '_blank')">LINE</div>
+<div class="social" onClick="window.open('https://www.instagram.com/mualeevf/', '_blank')">Instagram</div>
+
+  </div>
+</body>
+</html>
